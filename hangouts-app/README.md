@@ -7,10 +7,11 @@
   1. Create a free tier AWS account;
     * [AWS Free Tier](https://aws.amazon.com/free/) - The meeting time app is using AWS S3, AWS CloudFront, AWS API Gateway, AWS Lambda, AWS IoT. 
     Be careful, Meeting Time AWS Lambda application does not provide any authentication yet which could affect to your AWS bill if you share the access to it.
-    * [Upload your files to a S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/UG/UploadingObjectsintoAmazonS3.html)
-    * [Set up CloudFront to deliver content from S3](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-creating-console.html) 
-      Select Distribution to use https protocol.
+    * [Upload your files](https://docs.aws.amazon.com/AmazonS3/latest/UG/UploadingObjectsintoAmazonS3.html) to a S3 bucket
+    * [Set up CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-creating-console.html) to deliver content from S3
+      Set up Distribution to use https protocol.
     * Use [CloudFront invalidation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html) when you update your content in S3.
+
   2. Set up Google Hangouts Application;
     * [Hangouts - Getting Started](https://developers.google.com/+/hangouts/getting-started)
 

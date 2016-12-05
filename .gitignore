@@ -3,3 +3,4 @@
 /device-app/node_modules/
 /hangouts-app/index.html
 /serverless-app/serverless/node_modules/
+/device-app/config.js
