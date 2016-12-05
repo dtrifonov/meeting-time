@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <!-- /*
+ * Copyright (c) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy
+ * of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */ -->
+  <ModulePrefs title="Meeting Time App">
+    <Require feature="rpc"/>
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Meeting Time app</title>
+    <link type="text/css" rel="stylesheet" href="//<CloudFrontID>.cloudfront.net/app.css" />
+    </head>
+    <body>
+    <div id="app-container">
+        <h1><img src="//<CloudFrontID>.cloudfront.net/meeting.png" alt="Meeting Time Logo" height="50" width="50">Meeting Time App</h1>
+        <div id="led"></div>
+        <div id="control-panel">
+            <p>Switch on or off your meeting time light!</p>
+            <input type=button value="Switch ON" id="onButton" onClick="onButton()"/>
+            <input type=button value="Switch OFF" id="offButton" onClick="offButton()"/>
+         </div>
+         <div style="clear: both;"></div>
+    </div>
+    <script type="text/javascript" src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+    <script src="//<CloudFrontID>.cloudfront.net/app.js"></script>
+    </body>
+    </html>
+]]></Content>
+</Module>
