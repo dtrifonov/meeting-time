@@ -5,6 +5,8 @@ The purpose of the app is to inform the colleagues around your desk that you are
 
 The application consists of four tiers:
 
+![alt tag](cloudcraft-MeetingTime.png)
+
 1. A hangouts application which provides web based UI to switch on or off a led connected to a raspberry pi;
   * Check hangouts-app/README.md
 2. An AWS Lambda function which handles requests from the hangouts app and updates the AWS IoT things shadow status. I decided to use this approach because it provides https transfer of the API data and is very cheap. You are free to use another solution, hosted or serverless
