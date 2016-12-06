@@ -1,4 +1,4 @@
-var url = 'https://<AWS_API_Gateway_ID>.execute-api.us-east-1.amazonaws.com/dev/change';
+var url = 'https://<YourUniqueClientIdentifier>.execute-api.us-east-1.amazonaws.com/dev/change';
 var onStatus = 1;
 var offStatus = 0;
 

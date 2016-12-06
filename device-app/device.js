@@ -3,9 +3,9 @@
 let awsIot = require('aws-iot-device-sdk');
 let config = require('./config');
 
-let thingName = config.name;
-let awsRegion = config.awsRegion;
-let awsHost = `${config.awsClientId}.iot.us-east-1.amazonaws.com`;
+const thingName = config.name;
+const awsRegion = config.awsRegion;
+const awsHost = `${config.awsIoTThingEndpoint}.iot.us-east-1.amazonaws.com`;
 
 
 let device = awsIot.device({
