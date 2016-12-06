@@ -1,0 +1,11 @@
+{
+  "name": "Meeting time, Device app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "device.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.13"
+  }
+}

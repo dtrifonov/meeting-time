@@ -1,0 +1,36 @@
+service: MeetingTime
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: dev
+  region: us-east-1
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "iot:*"
+      Resource: "arn:aws:iot:us-east-1:<AWS-account-ID>:thing/<Thing-Name>"
+functions:
+  control_led:
+    handler: handler.controlLed
+    events:
+     - http:
+         path: change/{status}
+         method: get
+         cors: true
+  led_on:
+    handler: handler.ledOn
+    events:
+     - http:
+         path: on
+         method: get
+         cors: true
+  led_off:
+    handler: handler.ledOff
+    events:
+     - http:
+         path: off
+         method: get
+         cors: true
+
