@@ -5,7 +5,7 @@ The purpose of the app is to inform the colleagues around your desk that you are
 
 The application consists of four tiers:
 
-![alt tag](cloudcraft-MeetingTime.png)
+![alt tag](MeetingTime.png)
 
 1. A hangouts application which provides web based UI to switch on or off a led connected to a raspberry pi;
   * Check hangouts-app/README.md
