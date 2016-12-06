@@ -10,7 +10,7 @@ provider:
     - Effect: "Allow"
       Action:
         - "iot:*"
-      Resource: "arn:aws:iot:us-east-1:<AWS-account-ID>:thing/<Thing-Name>"
+      Resource: "arn:aws:iot:us-east-1:<YourUniqueClientIdentifier>:thing/<AWSIoTThingName>"
 functions:
   control_led:
     handler: handler.controlLed

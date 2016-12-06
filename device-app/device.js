@@ -7,14 +7,7 @@ let thingName = config.name;
 let awsRegion = config.awsRegion;
 let awsHost = `${config.awsClientId}.iot.us-east-1.amazonaws.com`;
 
-//
-// Replace the values of '<YourUniqueClientIdentifier>' and '<YourAWSRegion>'
-// with a unique client identifier and the AWS region you created your
-// certificate in (e.g. 'us-east-1').  NOTE: client identifiers must be
-// unique within your AWS account; if a client attempts to connect with a
-// client identifier which is already in use, the existing connection will
-// be terminated.
-//
+
 let device = awsIot.device({
    keyPath: './certs/private.pem.key',
   certPath: './certs/certificate.pem.crt',
