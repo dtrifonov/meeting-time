@@ -1,5 +1,5 @@
-####Meeting Time 
-##AWS Device application
+## Meeting Time 
+### AWS Device application
 
 1. Set up your device;
   1. ssh to your raspberry pi;
@@ -26,4 +26,4 @@
   3. From the top right corner select Actions/Attach policy and attach just created policy;
   4. From the top right corner select Actions/Attach thing and attach just created thing;
 5. Test the connection on the raspberry pi;
-  * node device.js
+* node device.js
