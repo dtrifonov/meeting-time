@@ -1,6 +1,6 @@
 
-#### Meeting Time
-## Serverless application
+## Meeting Time
+### Serverless application
 
 1. More about [Serverless framework](https://serverless.com/)
   1. You need to have an Amazon [AWS CLI profile set up](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) on your machine.
